@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#Paddinggoogle{
+    width: 60%;
+    height: 48%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+#logo > image{
+    width: 48px;
+    height: 48px;
+}
+
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+#information > input{
+    background-color: rgb(250, 255, 253);
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    height: 12px;   
+    margin-top: 100px;  
+    margin-bottom: 10px;
+}
+
+#forgot {
+    color: #0b57d0;
+}
+
+#note{
+    color: #444746;
+}
+
+#learn{
+    color: #0b57d0;
+}
+
+#button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+/* #button > button:hover {
+    background-color: red;
+} */
+
+#create {
+    border-radius: 24px;
+    color: #0b57d0;
+    background-color: #ffffff;
+    padding: 10px;
+    border: none;
+}
+
+#button > #create:hover{
+    background-color: rgb(81, 81, 223);
+    color:#ffffff;
+}
+
+#next {
+    border-radius: 24px;
+    color: #ffffff;
+    background-color: #0b57d0;
+    padding: 10px;
+    border:#0b57d0;
+}
+
+#button > #next:hover{
+    background-color: rgb(56, 56, 134);
+    color:#ffffff;
+}
+
+#more-options {
+    width: 60%;
+    height: fit-content;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .language {
+    width: 50%;
+  }
+  
+  .help {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .help > div {
+    font-size: 12px;
+    width: fit-content;
+    height: auto;
+  }
+  
+  select {
+    width: fit-content;
+    font-size: 12px;
+    padding: 5px 30px 5px 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  
+  select:hover {
+      cursor: pointer;
+    background-color: rgb(231, 231, 231);
+  }
+  
+  .option {
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+  .option:hover {
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+  }
+  
+
